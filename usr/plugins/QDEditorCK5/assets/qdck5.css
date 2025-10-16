@@ -1,0 +1,17 @@
+/* QDEditor CK5 v4.2 UI */
+.qdck5-brand{display:flex;align-items:center;gap:6px;color:#4f46e5;margin:8px 0 6px;font-size:13px}
+.qdck5-toolbar{display:flex;align-items:center;gap:8px;margin:6px 0 10px}
+.qdck5-btn{padding:4px 8px;border:1px solid #e5e7eb;border-radius:8px;background:#fafafa;cursor:pointer;font-size:12px}
+.qdck5-btn:hover{background:#f3f4f6}
+
+.qdck5-split{display:grid;grid-template-columns:1fr 8px 1fr;gap:10px;align-items:stretch}
+.qdck5-editor-wrap{min-width:0}
+.qdck5-divider{width:8px;cursor:col-resize;background:linear-gradient(180deg,#e5e7eb,#f3f4f6);border-radius:8px}
+.qdck5-preview-wrap{min-width:0}
+.qdck5-preview{border:1px solid #e5e7eb;border-radius:8px;padding:12px;min-height:120px;background:#fff;overflow:auto;height: var(--qdck5-preview-h, 720px)}
+.qdck5-preview table{border-collapse:collapse;width:100%}
+.qdck5-preview table td,.qdck5-preview table th{border:1px solid #e5e7eb;padding:6px}
+.qdck5-preview pre{background:#0b1220;color:#e5e7eb;border-radius:8px;padding:10px;overflow:auto}
+
+.qdck5-dark .qdck5-preview{background:#0b1220;color:#dbeafe;border-color:#1f2937}
+.qdck5-dark .qdck5-btn{background:#111827;color:#e5e7eb;border-color:#374151}
